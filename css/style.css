@@ -1,0 +1,174 @@
+/**** modal styles *****/
+.fade {
+	opacity: 0;
+	-webkit-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear;
+}
+
+.fade.in {
+	opacity: 1;
+}
+
+
+.modal.fade .modal-dialog {
+	-webkit-transition: -webkit-transform .3s ease-out;
+	-o-transition: -o-transform .3s ease-out;
+	transition: transform .3s ease-out;
+	-webkit-transform: translate(0,-25%);
+	-ms-transform: translate(0,-25%);
+	-o-transform: translate(0,-25%);
+	transform: translate(0,-25%);
+}
+.modal.in .modal-dialog {
+	-webkit-transform: translate(0,0);
+	-ms-transform: translate(0,0);
+	-o-transform: translate(0,0);
+	transform: translate(0,0);
+}
+.overlay {
+	position: fixed;
+	overflow: auto;
+	text-align: center;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	z-index: 1000;
+	background-color: #fff;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.button.button--see-more {
+	min-width: 280px;
+	border: 0;
+	background: #1e8cbe;
+	color: #ffffff;
+	padding: 11px 23px;
+	webkit-transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	height: auto;
+}
+.button.button--see-more:hover {
+	background: #00aadc;
+}
+.button--close {
+	font-size: 32px;
+	padding: 10px 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	letter-spacing: -0.02em;
+	font-weight: 300;
+	font-style: normal;
+}
+.button.button--close {
+	font-size: 2em;
+	border: none;
+	cursor: pointer;
+}
+a.button--close--bottom {
+	color: rgba(0, 0, 0, 0.55);
+	font-size: 0.5em;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	float: right;
+}
+a.button--close--bottom:hover {
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.75);
+	border-color: rgba(0, 0, 0, 0.75);
+}
+.overlay-dialog {
+	display: inline-block;
+	vertical-align: middle;
+	outline: none;
+	overflow: hidden;
+	max-width: 580px;
+	padding: 100px 80px;
+}
+.overlay-dialog.loading {
+	background-image: url('../images/ajax-loader.gif');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.overlay-dialog--animate {
+	-webkit-transform-origin: bottom center;
+	-ms-transform-origin: bottom center;
+	transform-origin: bottom center;
+	-webkit-animation: scale-fade 300ms forwards cubic-bezier(.8, .02, .45, .91);
+	animation: scale-fade 300ms forwards cubic-bezier(.8, .02, .45, .91);
+}
+.resultarea {
+	min-height: 200px;
+	 -moz-transition: all 0.5s linear,all 0.3s ease-out;
+    -webkit-transition: all 0.5s linear,all 0.3s ease-out;
+    -o-transition: all 0.5s linear,all 0.3s ease-out;
+    transition: all 0.5s linear,all 0.3s ease-out;
+}
+.overlay-title {
+	color: rgba(0,0,0,0.8);
+	line-height: 1.1;
+	margin-bottom: 15px;
+}
+.overlay-content {
+	color: rgba(0,0,0,0.6);
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
+.overlay-image {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/** button **/
+.random-button {
+	color: #ffffff;
+	background: #1e8cbe;
+	display: inline-block;
+	position: relative;
+	outline: 0;
+	zoom: 1;
+	border: 1px solid rgba(0, 0, 0, 0);
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 11px 23px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	webkit-transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 120ms ease-in-out;
+	transition: background 200ms ease-in-out, color 120ms ease-in-out;
+}
+a.random-button,
+a.random-button:hover {
+	color: #ffffff;
+}
+.random-button:hover {
+	webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	background: #00aadc;
+	color: #ffffff;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00aadc, endColorstr=#00aadc);
+}
+.button-xlarge, .button.xlarge {
+	padding: 17px 40px;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+	.overlay-dialog {
+		padding: 50px 20px;
+	}
+}

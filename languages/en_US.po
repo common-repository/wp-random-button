@@ -1,0 +1,78 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Random Button\n"
+"POT-Creation-Date: 2015-09-23 21:04+0800\n"
+"PO-Revision-Date: 2015-09-23 21:04+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class/class-wp-random-button.php:107
+msgid "Sorry, but no stuff found yet."
+msgstr ""
+
+#: class/class-wp-random-button.php:126 class/widget.php:9
+msgid "WP Random Button"
+msgstr ""
+
+#: class/class-wp-random-button.php:127
+msgid "From here you can configure the appearance of our WP Random Button."
+msgstr ""
+
+#: class/class-wp-random-button.php:140
+msgid "Button Background Color"
+msgstr ""
+
+#: class/class-wp-random-button.php:152
+msgid "Button Font Color"
+msgstr ""
+
+#: class/class-wp-random-button.php:163
+msgid "Button Hover Background Color"
+msgstr ""
+
+#: class/class-wp-random-button.php:174
+msgid "Button Hover Font Color"
+msgstr ""
+
+#: class/class-wp-random-button.php:184
+msgid "Enable Cookies"
+msgstr ""
+
+#: class/class-wp-random-button.php:185
+msgid ""
+"By enabling cookies, each random post will be displayed only once. Expired "
+"time of the cookies is 6 hours"
+msgstr ""
+
+#: class/widget.php:7
+msgid "Display a Random Post Button on your sidebar"
+msgstr ""
+
+#: class/widget.php:28
+msgid "Random Post"
+msgstr ""
+
+#: class/widget.php:71
+msgid "Title:"
+msgstr ""
+
+#: class/widget.php:74
+msgid "Button Text:"
+msgstr ""
+
+#: class/widget.php:78
+msgid "Category IDs:"
+msgstr ""
+
+#: class/widget.php:81
+msgid "Exclude Category IDs:"
+msgstr ""
